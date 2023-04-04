@@ -9,3 +9,8 @@
     <li> VS - Extension - Prettier </li>
     <li> Chrome extension - colorzilla </li>
 </ul>
+
+<h2> Some good resources </h2>
+<ul>
+    <li> UI color picker </li>
+</ul>
