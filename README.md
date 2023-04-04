@@ -2,7 +2,10 @@
 
 <h2> Required Tools : </h2>
 <ul>
-    <ol> Browser - Chrome </ol>
-    <ol> Editor - VS Code </ol>
-    <ol> Plugins - Emmet, live reload, (prettier) and colorzilla </ol>
+    <li> Browser - Chrome </li>
+    <li> Editor - VS Code </li>
+    <li> VS - Extension - Emmet </li>
+    <li> VS - Extension - Live server </li>
+    <li> VS - Extension - Prettier </li>
+    <li> Chrome extension - colorzilla </li>
 </ul>
