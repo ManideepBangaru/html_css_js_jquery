@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+/* To define variables and make them available for complete css*/
+:root{
+    --yellow : #ffbb30;
+}
+
+/* making sure browsers are standardised */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background: linear-gradient(90deg, #FED54A 0% ,#FF9347 100%);
+}
+
+span{
+    font-size: 70px;
+    color:brown;
+    font-weight:800
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
+p{
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 3px;
+}
+
+button{
+    margin : auto;
+    display : block;
+}
+
+.btn{
+    margin-top: 5%;
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.5em;
+    color: brown;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.5em 2.0em;
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+
+.btn:hover{
+    color: var(--yellow);
+}
+
+.login{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.login:hover{
+    box-shadow: 0 0 40px 40px brown inset;
+}
+
+@media screen and (max-width : 800px){
+    body{
+        background: orange;
+    }
+    h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width : 400px){
+    body{
+        background : crimson;
+    }
+    h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 60px;
+    }
+    
+}
+
