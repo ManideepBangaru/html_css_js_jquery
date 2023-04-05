@@ -13,7 +13,7 @@
 <h2> Some good resources </h2>
 <ul>
     <li> UI color picker </li>
-    <li> For colors - <a href = https://uicolorpicker.com/> ui color picker </a> </li>
+    <li> For colors - <a href = https://uicolorpicker.com/ _blank=True> ui color picker </a> </li>
     <li> For fonts - <a href = https://fonts.google.com/> google fonts </a> </li>
     <li> For icons search - <a href = https://fontawesome.com/search> icons </a> </li>
 </ul>
