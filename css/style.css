@@ -11,7 +11,8 @@ body{
 nav{
     display: flex;
     flex-direction:row;
-    height: 20vh;
+    height: 10vh;
+    align-items: center;
 }
 
 .myspace{
@@ -20,11 +21,12 @@ nav{
     font-weight: 300;
     font-size: 30px;
     text-align: left;
+    /* padding : 0.5%; */
 }
 
 .myspace-link{
     text-decoration: none;
-    color:antiquewhite;
+    color:black;
     text-align: left;
 }
 
@@ -39,13 +41,16 @@ nav .nav-items{
     list-style-type: none;
     height: 10vh;
     padding: 0% 5%;
+    margin: 10;
+    align-items: center;
 }
 
 .nav-link{
-    text-decoration: none;
-    color:burlywood;
+    font-family: "Alkatra";
     font-size: 20px;
     font-weight: 300;
+    text-decoration: none;
+    color:black;
 }
 
 .nav-link:hover{
