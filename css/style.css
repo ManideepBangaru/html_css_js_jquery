@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+body{
+    background: linear-gradient(90deg , #e66465 0%, #9198e5 100%);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    /* margin: 0 5%; */
+}
+
+.myspace{
+    font-family: "Alkatra", "cursive";
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+}
+
+.myspace-link{
+    text-decoration: none;
+    color:antiquewhite;
+    text-align: left;
+}
+
+.myspace:hover{
+    cursor: pointer;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:burlywood;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-link:hover{
+    color: brown;
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction:row;
+    height: 20vh;
+}
+
+nav .nav-items{
+    flex: 2 1;
+    display: flex;
+    width: 200px;
+    justify-content:flex-end;
+    list-style-type: none;
+    height: 10vh;
+    padding: 5px 40px;
+}
