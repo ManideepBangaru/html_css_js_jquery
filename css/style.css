@@ -8,7 +8,14 @@ body{
     /* margin: 0 5%; */
 }
 
+nav{
+    display: flex;
+    flex-direction:row;
+    height: 20vh;
+}
+
 .myspace{
+    flex: 1;
     font-family: "Alkatra", "cursive";
     font-weight: 300;
     font-size: 30px;
@@ -25,6 +32,15 @@ body{
     cursor: pointer;
 }
 
+nav .nav-items{
+    flex: 2;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    height: 10vh;
+    padding: 0% 5%;
+}
+
 .nav-link{
     text-decoration: none;
     color:burlywood;
@@ -34,21 +50,4 @@ body{
 
 .nav-link:hover{
     color: brown;
-    font-size: 30px;
-}
-
-nav{
-    display: flex;
-    flex-direction:row;
-    height: 20vh;
-}
-
-nav .nav-items{
-    flex: 2 1;
-    display: flex;
-    width: 200px;
-    justify-content:flex-end;
-    list-style-type: none;
-    height: 10vh;
-    padding: 5px 40px;
 }
