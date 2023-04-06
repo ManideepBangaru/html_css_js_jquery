@@ -55,3 +55,19 @@ nav .nav-items{
 .nav-link:hover{
     color: brown;
 }
+
+nav .nav-menu-button{
+    flex: 3;
+    color: black;
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    nav .nav-items{
+        display: none;
+    }
+    nav .nav-menu-button{
+        display: block;
+        margin: auto;
+    }
+}
