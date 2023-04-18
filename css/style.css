@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 1px solid red;
+    height: 100vh;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 p{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 p{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+
+.row3 p{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.mainsec{
+    display: flex;
+    flex-direction: row;
+}
