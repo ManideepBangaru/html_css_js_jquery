@@ -47,5 +47,9 @@ body{
 
 .mainsec{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+}
+
+.secsec{
+    flex-direction: row-reverse;
 }
