@@ -14,8 +14,9 @@
     background-color: red;
     height: 25%;
     width: 25%;
+    /* transition: transform 1s ease-in; */
     /* animation: left-to-right 2s ease-in forwards infinite alternate; */
-    animation: left-to-right 2s ease-in infinite alternate;
+    animation: left-to-right 2s ease-in infinite;
     border-radius: 50%;
 }
 
@@ -43,5 +44,5 @@
     100%{
         background-color: gold;
         transform: translateX(300%);
-    }   
+    }
 }
