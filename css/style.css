@@ -1,0 +1,47 @@
+.parent{
+    background-color: hsla(200, 100%, 20%);
+    height : 200px;
+    width: 200px;
+}
+
+/* .child{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+} */
+
+.child{
+    background-color: red;
+    height: 25%;
+    width: 25%;
+    /* animation: left-to-right 2s ease-in forwards infinite alternate; */
+    animation: left-to-right 2s ease-in infinite alternate;
+    border-radius: 50%;
+}
+
+/* .parent:hover .child{
+    animation: left-to-right 1s ease-in forwards infinite alternate;
+} */
+
+.parent:hover .child{
+    animation-play-state: paused;
+}
+
+@keyframes left-to-right {
+    0%{
+        transform: translateX(0);
+    }
+
+    33%{
+        transform: translateY(300%);
+    }
+    
+    66%{
+        transform: translateX(300%) translateY(300%);
+    }
+
+    100%{
+        background-color: gold;
+        transform: translateX(300%);
+    }   
+}
