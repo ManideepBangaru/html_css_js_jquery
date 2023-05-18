@@ -1,0 +1,16 @@
+div h1{
+    color: rebeccapurple;
+}
+
+div p {
+    color: brown;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 20px;
+    margin: 10%;
+}
