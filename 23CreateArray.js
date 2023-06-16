@@ -9,6 +9,7 @@ let new_names = [];
 new_names.push('suresh')
 console.log(new_names)
 new_names.push('suresh')
+console.log(new_names)
 
 let values = [5, 7, 8]
 console.log(values[0])
