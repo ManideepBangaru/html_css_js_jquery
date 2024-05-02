@@ -19,7 +19,8 @@ body{
 span{
     font-size: 70px;
     color:brown;
-    font-weight:800
+    font-weight:800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1{
@@ -84,14 +85,20 @@ button{
 
 @media screen and (max-width: 600px) and (min-width : 400px){
     body{
-        background : crimson;
+        background : rgb(188, 41, 70);
     }
     h1{
         font-size: 40px;
     }
     span{
         font-size: 60px;
+        color: darkgoldenrod;
     }
-    
+    .btn{
+        color:beige;
+    }
+    .btn:hover{
+        color: darkgoldenrod;
+        box-shadow: 0 0 40px 40px rgb(34, 4, 4) inset;
+    }
 }
-
