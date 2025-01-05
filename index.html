@@ -2,59 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manideep | Home</title>
-    <style>
-        body{
-            background-color: #758283;
-        }
-
-        h1{
-            background-color: #23C4ED;
-            padding: 10px;
-            margin-top: 10px;
-            color: dimgray;
-            font-style: italic;
-            text-align: center;
-        }
-    </style>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1> Welcome to my page </h1>
-    <button type="submit"> Click </button>
-    <form action="" method="post">
-        <input type="color" name="" id="">
-        <input type="datetime" name="" id="">
-        <input type="file" name="" id="">
-        <button type="submit">Submit</button>
-    </form>
-    <br>
-    <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ul>
-    <ol>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ol>
-    <ul>
-        <li>Manideep</li>
-        <li>Manoj</li>
-        <li>Shr</li>
-    </ul>
-    <form action="" method="post">
-    <textarea name="Comments" id="" cols="30" rows="10"> Comments </textarea>
-    <select name="Language" id="">
-        <option value="C++">C++</option>
-        <option value="Java">Java</option>
-        <option value="python">Python</option>
-    </select>
-    <button type="submit"> Submit </button>
-    </form>
+    <header>
+        <nav>
+            <ul>
+                <li><a id="home-link">Home</a></li>
+                <li><a id="about-link">About</a></li>
+                <li><a id="projects-link">Projects</a></li>
+                <li><a id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my projects and learn about my work.</p>
+            <button id="learn-more-button">Learn More</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>hello@example.com</p>
+            <ul>
+                <li><a href="https://www.github.com/hello">Github</a></li>
+                <li><a href="mailto:hello@example.com">Email</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
